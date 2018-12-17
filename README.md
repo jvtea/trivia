@@ -9,7 +9,7 @@ Extra functionality in the app comes from a message that is printed to the user 
 Importantly, this app is partly non-functional as the highscore table has not been implemented.
 
 Inlog Screen: <br/>
-<img src="/doc/Screenshot_Trivia_1" height="30%" width="30%"/>
+<img src="/doc/Screenshot_Trivia_1.png" height="30%" width="30%"/>
 
 Question view: <br/>
 <img src="/doc/Screenshot_Trivia_2.png" height="30%" width="30%"/>
