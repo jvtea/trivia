@@ -26,27 +26,24 @@ public class ResultsActivity extends AppCompatActivity {
 
         // ALSO SET DIFFERENT IMAGES!
         if (correctRatio <= 0.15) {
-            resultsGreeting.setText("Wow, you really suck! Have you heard about the concept 'music' before? It's pretty cool stuff.");
+            resultsGreeting.setText("Wow, you really suck, " + userName + "! Have you heard about the concept 'music' before? It's pretty cool stuff.");
         } else
         if (correctRatio <= 0.5) {
-            resultsGreeting.setText("Your performance was quite bad and you should at least feel sóme sense of shame right now.");
+            resultsGreeting.setText("Your performance was quite bad, " + userName + ",and you should at least feel sóme sense of shame right now.");
         } else
         if (correctRatio <= 0.7) {
-            resultsGreeting.setText("Congratulations! You did pretty good out there!");
+            resultsGreeting.setText("Congratulations, " + userName +"! You did pretty good out there!");
         } else
         if (correctRatio <= 0.9) {
-            resultsGreeting.setText("Wow! You are a wizard of musical knowledge. Well done, P.I.M.P!");
+            resultsGreeting.setText("Wow, " + userName + "! You are a wizard of musical knowledge. Well done, P.I.M.P!");
         }
         else {
-            resultsGreeting.setText("DAMN SON, you are a musical GENIUS. A legend of music. A vinyl dragon. If Eric Clapton wasn't already, you'd be GOD!");
+            resultsGreeting.setText("HOT DAMN, " + userName + ", you are a musical GENIUS. A legend of music. A vinyl dragon. If Eric Clapton wasn't already, you'd be GOD!");
         }
 
         // set score display for user
         TextView scoreText = findViewById(R.id.scoreText);
         scoreText.setText(questionsCorrect + "/" + totalQuestions);
-
-
-
 
     }
 
